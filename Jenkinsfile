@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_DEFAULT_REGION = 'tu-region-aws'
         LAMBDA_FUNCTION_NAME = 'new_func'
-        ZIP_FILE_NAME = 'lambda_function.zip'
+        ZIP_FILE_NAME = 'lambda.zip'
     }
 
     stages {
