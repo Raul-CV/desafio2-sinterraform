@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_DEFAULT_REGION = 'tu-region-aws'
+        AWS_DEFAULT_REGION = 'eu-west-2'
         LAMBDA_FUNCTION_NAME = 'new_func'
         ZIP_FILE_NAME = 'lambda.zip'
     }
