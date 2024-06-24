@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION = 'eu-west-2'
-        LAMBDA_FUNCTION_NAME = 'nueva_funcion'
+        LAMBDA_FUNCTION_NAME = 'nueva_funcion_lambda'
         ZIP_FILE_NAME = 'lambda.zip'
-        HANDLER = 'mi_nueva_lambda.lambda_handler'
+        HANDLER = 'mi_funcion_lambda.lambda_handler'
         RUNTIME = 'python3.8'
         ROLE_ARN = 'arn:aws:iam::767398072756:role/aws-rol-lambda'
     }
